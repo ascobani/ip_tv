@@ -1,0 +1,25 @@
+name: ip_tv
+
+packages:
+  - packages/*
+  - app/*
+
+command:
+  version:
+
+    linkToCommits: false
+    workspaceChangelog: true
+
+    changelogs:
+      - path: ip_tv_changelog.md
+        packageFilters:
+          scope: ip_tv*
+        description: |
+          All notable changes for ip_tv packages
+
+    bootstrap:
+      runPubGetInParallel: false
+      usePubspecOverrides: true
+
+
+scripts:
