@@ -23,3 +23,15 @@ command:
 
 
 scripts:
+  pub:get:
+    run: |
+     cd app/flutter_ip_tv_player
+     flutter pub get
+     cd ../..
+    description: Get dependencies
+    deps:
+      -app
+
+
+
+
