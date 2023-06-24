@@ -5,7 +5,7 @@
 User         : alisinancobani
 Project Name : ip_tv 
 Name         : Ali Sinan COBANI
-Date         : 24.06.2023 14:34
+Date         : 24.06.2023 16:35
 Notes        : 
 
 
@@ -13,5 +13,12 @@ Notes        :
 
 */
 
-class Theme {
+
+
+class LightTheme {
+
+
+
+
+
 }

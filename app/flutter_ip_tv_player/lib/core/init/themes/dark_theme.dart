@@ -13,5 +13,4 @@ Notes        :
 
 */
 
-class DartTheme {
-}
+class DarkTheme {}
