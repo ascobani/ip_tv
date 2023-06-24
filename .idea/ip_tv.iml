@@ -9,6 +9,9 @@
       <excludeFolder url="file://$MODULE_DIR$/app/flutter_ip_tv_player/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/app/flutter_ip_tv_player/build" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/tv_ui/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/tv_ui/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/tv_ui/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

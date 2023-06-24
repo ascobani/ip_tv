@@ -16,6 +16,9 @@ Notes        :
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+// Pages
+import '../../view/home_view/home.dart';
+
 part 'routes.dart';
 
 class App extends StatelessWidget {

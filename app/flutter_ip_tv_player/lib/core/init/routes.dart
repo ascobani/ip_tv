@@ -16,36 +16,45 @@ Notes        :
 part of 'app.dart';
 
 GoRouter routes = GoRouter(
-  routes: [
+  routes: <RouteBase>[
     GoRoute(
       path: '/',
-      builder: (context, state) => const Placeholder(),
-    ),
-    GoRoute(
-      path: '/player',
-      builder: (context, state) => const Placeholder(),
-    ),
-    GoRoute(
-      path: '/settings',
-      builder: (context, state) => const Placeholder(),
-      routes: [
+      name: 'Home',
+      builder: (context, state) => const Home(),
+      routes: <RouteBase>[
         GoRoute(
-          path: '/settings/general',
+          path: 'player',
+          name: 'Player',
           builder: (context, state) => const Placeholder(),
         ),
         GoRoute(
-          path: '/settings/player',
+          path: 'settings',
+          name: 'Settings',
           builder: (context, state) => const Placeholder(),
+          routes: [
+            GoRoute(
+              path: 'settings/general',
+              name: 'setting_General',
+              builder: (context, state) => const Placeholder(),
+            ),
+            GoRoute(
+              path: 'settings/player',
+              name: 'setting_Player',
+              builder: (context, state) => const Placeholder(),
+            ),
+            GoRoute(
+              path: 'settings/playlist',
+              name: 'setting_Playlist',
+              builder: (context, state) => const Placeholder(),
+            ),
+          ],
         ),
         GoRoute(
-          path: '/settings/playlist',
+          path: 'about',
+          name: 'About',
           builder: (context, state) => const Placeholder(),
         ),
-      ],
-    ),
-    GoRoute(
-      path: '/about',
-      builder: (context, state) => const Placeholder(),
+      ]
     ),
   ],
 );

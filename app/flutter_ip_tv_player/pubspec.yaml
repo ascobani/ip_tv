@@ -20,12 +20,20 @@ dependencies:
   isar: ^3.1.0+1
   intl: ^0.18.1
   flutter_hls_parser: ^2.0.1
+  flutter_native_splash: ^2.3.1
+
+  # flutter_ip_tv_player:
+  tv_ui:
+    path: ../../packages/tv_ui
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
   flutter_lints: ^2.0.1
+  mocktail: ^0.3.0
 
 flutter:
   uses-material-design: true
